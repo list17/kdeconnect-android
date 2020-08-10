@@ -187,7 +187,7 @@ public class NotificationsPlugin extends Plugin implements NotificationReceiver.
 
         if ((notification.flags & Notification.FLAG_FOREGROUND_SERVICE) != 0
                 || (notification.flags & Notification.FLAG_ONGOING_EVENT) != 0
-                || (notification.flags & Notification.FLAG_LOCAL_ONLY) != 0
+//                || (notification.flags & Notification.FLAG_LOCAL_ONLY) != 0
                 || (notification.flags & NotificationCompat.FLAG_GROUP_SUMMARY) != 0 //The notification that groups other notifications
         )
         {
